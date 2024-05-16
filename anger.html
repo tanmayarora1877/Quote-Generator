@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Ramdom Quote Generator</title>
+      <link rel="stylesheet" href="resonsive.css">
+      
+      <link rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+         integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+         href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap"
+         rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+         href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap"
+         rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+         href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap"
+         rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+         href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap"
+         rel="stylesheet">
+
+      <style>
+         .container1{
+            font-size: 18px;
+            margin: 211px 365px 103px 366px;
+    padding: 47px;
+    box-shadow: 0 4px 8px rgb(75 21 2);
+    border-radius: 3rem;
+    background: linear-gradient( to bottom right, #ffa6e5 0%, #3631c5 36%, #3631c5 66%, #ffa6e5 100% );
+    color: black;
+    font-family: 'Leckerli One', cursive;
+         }
+         
+                
+                a{
+                    text-decoration: none;
+                    color: white;
+                    font-size: 16px;
+                }
+                newisty-contact-us-generator body {
+                    font-family: Arial, sans-serif;
+                    background-color: #f2f2f2;
+                }
+                newisty-contact-us-generator .container {
+                    background-color: #fff;
+                    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+                    padding: 40px;
+                    margin-top: 119px;
+                    margin-left: 23px;
+                    margin-right: 23px;
+                }
+                newisty-contact-us-generator h1 {
+                    text-align: center;
+                    margin-bottom: 30px;
+                }
+                newisty-contact-us-generator a {
+                    color: #4CAF50;
+                    font-weight: 700;
+                }
+              
+                newisty-contact-us-generator .contact-method {
+                    padding: 20px;
+                    border: 1px solid #ccc;
+                    margin-bottom: 20px;
+                    border-radius: 5px;
+                    position: relative;
+                }
+                newisty-contact-us-generator .contact-method-icon {
+                    left: 0;
+                    top: 20px;
+                    font-size: 40px;
+                    color: #4CAF50;
+                    padding-right: 20px;
+                }
+                newisty-contact-us-generator .contact-method-title {
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin-bottom: 10px;
+                }
+                newisty-contact-us-generator .contact-method-description {
+                    font-size: 18px;
+                    line-height: 1.5;
+                    margin-bottom: 0;
+                }
+                newisty-contact-us-generator .social-icons {
+                    margin-top: 30px;
+                }
+                newisty-contact-us-generator .social-icons a {
+                    display: inline-block;
+                    margin-right: 20px;
+                    color: #fff;
+                    background-color: #c9166a;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    font-size: 20px;
+                    text-align: center;
+                    line-height: 40px;
+                    transition: all 0.3s ease-in-out;
+                }
+              
+                 newisty-contact-us-generator .social-icons a i{
+                    margin-top: 10px;
+                 }
+         body, html {
+            height: 100%;
+            margin: 0;
+            overflow: auto;
+        }
+        
+        .video-background {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: -1;
+        }
+        
+        #video-background {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+      nav ul li a:hover {
+         color: white;
+     font-weight: bolder;
+     font-size: 22px;
+     }
+      body{
+         min-height:100vh;
+         transition: 0.5s;
+
+background-image: url(https://cdn.wallpapersafari.com/77/55/FoVknZ.jpg);
+
+
+
+     
+         align-items: center;
+         justify-content: center;
+
+      }
+      *{
+         margin: 0;
+         padding: 0;
+     }
+     header{
+      background-color:black;
+     }
+     nav{
+         display: flex;
+         align-content: center;
+   
+     }
+     .logo{
+         display: flex;
+         align-items: center;
+     }
+     .img1{
+         width:200px ;
+         
+     }
+     
+     nav ul{
+         display: flex;
+         align-items: center;
+         justify-content: flex-start;
+         height: 58px;
+         
+     }
+     nav ul li{
+         padding: 19px 15px 4px 81px;
+         list-style: none;
+       
+     }
+     nav ul li a{
+         color: white;
+         text-decoration: none;
+     
+     }
+     .search{
+         display: flex;
+         align-items: center;
+         padding: 18px 76px;
+     }
+     .search input{
+         width: 30vw;
+         height: 27px;
+         border-radius: 2px;
+         margin: 0 16px 0 56px;
+         padding: 0 12px;
+     }
+      .boxSize {
+        margin: 233px 190px 324px 309px;
+    border-radius: 14px;
+         width: 800px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         padding: 64px;
+         box-shadow: 0 4px 10px rgb(53 169 237 / 60%);
+         background: linear-gradient( to bottom right, #ffa6e5 0%, #3631c5 36%, #3631c5 66%, #ffa6e5 100% );
+      }
+      .fa-quote-left,.fa-quote-right{
+         font-size: 24px;
+         color: rgb(18 18 39 / 88%);
+       
+      }
+      .QuoteText {
+         text-align: center;
+         font-size: 40px;
+         font-weight: bold;
+         font-family: 'Dancing Script', cursive;
+      }
+      #author {
+         margin:19px;
+         text-align: right;
+         font-size: 25px;
+         font-family: 'Sedgwick Ave Display', cursive;
+        
+        
+      }
+      .QuoteBtn {
+         width: 100%;
+         display: flex;
+         margin-top:10px;
+      }
+      .GenerateQuote_next {
+         font-size:18px;
+         border-radius: 5px;
+         cursor:pointer;
+         padding: 10px;
+         margin: 61px 0 -58px 0;
+         font-weight: bold;
+         color: black;
+         background-color: #f8f5f5;
+      }
+         .GenerateQuote_next:hover{
+         background-color: black;
+         color: white;
+         transform: scale(1.2);
+         }
+        .rand{
+         font-family: 'Dela Gothic One', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12vh 10vh -21vh 5vh;
+    color: white;
+    
+    
+        }
+        footer{
+         height: 4vh;
+         background-color: black;
+         color: white;
+        }
+        .flex-all-center{
+         display: flex;
+         justify-content: center;
+         text-align: center;
+         align-items: center;
+     }
+     #sharebuttons{
+      display: flex;
+      align-items: center;
+     }
+     .fa-linkedin{
+      margin: 0 27px;
+      position: relative;
+      right: -268px;
+      bottom: -22px;
+     }
+     .fa-linkedin:hover{
+  color:black;
+  transform: scale(2.2);
+     }
+     .fa-reddit{
+      margin: 0 27px;
+    position: relative;
+    right: -280px;
+    bottom: -22px;
+     }
+     .fa-reddit:hover{
+      color:black;
+      transform: scale(2.2);
+   
+     }
+     .fa-facebook{
+      margin: 0 27px;
+      position: relative;
+      right: -502px;
+      bottom: -22px;
+     }
+     .fa-facebook:hover{
+      color:black;
+      transform: scale(2.2);
+     }
+     .share{
+      position: relative;
+      right: -167px;
+      font-family: 'Dela Gothic One', cursive;
+      
+     }
+     .container{
+
+      font-size: 20px;
+      margin: 119px 365px 197px 366px;
+      padding: 47px;
+      box-shadow: 0 4px 8px rgb(75 21 2);
+      border-radius: 3rem;
+      background: linear-gradient( to bottom right, #ffa6e5 0%, #3631c5 36%, #3631c5 66%, #ffa6e5 100% );
+      color: black;
+      font-family: 'Leckerli One', cursive;
+     }
+     #about{
+      margin: 338px 2px 2px 2px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     }
+     .head{
+      text-align: center;
+     }
+     .head ul{
+      display: flex;
+      flex-direction: column;
+     }
+     .head ul li{
+      list-style: none;
+     } 
+   .container:hover{
+      transform: scale(1.05);
+   }
+   
+   .boxSize:hover{
+      transform: scale(1.1);
+   }
+   .grid{
+      height: 56vh;
+
+display: grid;
+grid-template-columns: auto auto auto;
+
+gap: 41px 19px;
+margin: 23px 23px 23px 23px;
+
+  }
+ .item{
+  background-color: black;
+  border: 2px solid rgb(25, 0, 255);
+  color: white;
+  height: 20vh;
+ display: flex;
+ align-items: center;
+ 
+ }
+ .text{
+   color: white;
+   display: flex;
+   align-items: center;
+   font-size: 22px;
+   padding: 0px 0px 0px 87px;
+ }
+ .text1{
+   color: white;
+   display: flex;
+   align-items: center;
+   font-size: 22px;
+   padding: 0px 0px 0px 111px;
+ }
+ .item:hover{
+   transform: scale(1.1);
+ }
+ #famoushead{
+   display: flex;
+   justify-content: center;
+   color: white;
+   font-size: 40px;
+ }
+ .photo{
+    display: flex;
+    justify-content: center;
+    margin: 3vh 10vh -9vh 10vh;
+ }
+   </style>
+   </head>
+   <body>
+      <div class="video-background">
+         <video autoplay muted loop id="video-background">
+             <source
+                 src="https://cdn.pixabay.com/vimeo/521707474/ink-67358.mp4?width=1280&hash=56cd9a58622870d95536af76f454ee6274145f8e"
+                 type="video/mp4">
+             
+         </video>
+     </div>
+      <header>
+         <nav>
+            <div class="logo">
+               <img class="img1" src="wet.jpg" alt>
+            </div>
+            <ul>
+               <li><a href="quote.html">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="search">
+               <input type="text" placeholder="Search Here">
+               <button class="btn">Search</button>
+            </nav>
+         </header>
+         <main>
+            <div class="photo"><img src="https://tse1.mm.bing.net/th?id=OIP.PIKx1ClHctXI8FRV9tnzgQHaEO&pid=Api&P=0&h=180" alt="" style="border-radius: 139px;"></div>
+            <h1 class="rand"><u></u></h1>
+            <div class="boxSize">
+               <h1>
+                  <i class="fas fa-quote-left "></i>
+                  <span class="QuoteText" id="QuoteText"></span>
+                  <i class="fas fa-quote-right"></i>
+               </h1>
+               <p class="QuoteWR" id="author"></p>
+
+               <hr />
+               <div class="QuoteBtn">
+                  <button class="GenerateQuote_next" onclick="GenerateQuote()">Next
+                     quote</button>
+               </div>
+               <div id="sharebuttons">
+                  <a class="facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+
+                  <a class="linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+                  <a class="reddit" target="_blank"><i class="fab fa-reddit"></i></a>
+               </div>
+
+               <p class="share">SHARE:</p>
+            </div>
+            
+            <h1 id="famoushead">Famous Authors And Their Quotes</h1>
+            <div class="grid">
+            
+            <a href="george.html"><div class="item"><img src="https://tse3.mm.bing.net/th?id=OIP.BR73vxOmbmzQrG9x42VufgHaHa&pid=Api&P=0&h=180" alt="" width="173px"><div class="text">George Orwell</div></div></a>
+           
+            <a href="shakespeare.html"><div class="item"><img src="https://tse2.mm.bing.net/th?id=OIP.dVJyUyo6UrdFugMfWCUzmAHaHa&pid=Api&P=0&h=180" alt="" width="173px"><div class="text">William Shakespeare</div></div></a>
+            <a href="lewis.html"><div class="item"><img src="https://tse4.mm.bing.net/th?id=OIP.4IJ1n0HTz_KBx8qZx--GKAHaJb&pid=Api&P=0&h=180" alt="" width="138px"><div class="text">CS Lewis</div></div></a>
+            <a href="mark.html"><div class="item"><img src="https://tse3.mm.bing.net/th?id=OIP.DROawrtVyitZQGMP9peCHQHaKX&pid=Api&P=0&h=180" alt="" width="126px"><div class="text1">Mark Twain</div></div></a>
+            <a href="martin.html"><div class="item"><img src="https://tse3.mm.bing.net/th?id=OIP.WEyfO7SoP2sX1_ZeGC7GIgHaJ4&pid=Api&P=0&h=180" alt="" width="132px"><div class="text">George RR Martin</div></div></a>
+            <a href="rowling.html"><div class="item"><img src="https://tse3.mm.bing.net/th?id=OIP.KjOpeeFaP-jAqfTjYeg3pAHaLH&pid=Api&P=0&h=180" alt="" width="117px"><div class="text">JK Rowling</div></div></a>
+            <a href="stephen.html"><div class="item"><img src="https://tse4.mm.bing.net/th?id=OIP.qxmeiZLCiBSgI8NC5M2ajAHaHN&pid=Api&P=0&h=180" alt="" width="181px"><div class="text">Stephen King</div></div></a>
+            <a href="stan.html"><div class="item"><img src="https://tse3.mm.bing.net/th?id=OIP.tQXZuJH1xBSGayut0ObS1gHaID&pid=Api&P=0&h=180" alt="" width="162px"><div class="text1">Stan Lee</div></div></a>
+            <a href="oscar.html"><div class="item"><img src="https://tse1.mm.bing.net/th?id=OIP.x07oM1iqifOZdO9gHry-oQHaIm&pid=Api&P=0&h=180" alt="" width="152px"><div class="text">Oscar Wilde</div></div></a>
+              
+           </div>
+          
+            <section>
+               <section id="about">
+                  <div class="container">
+                     <h2><u>About Us</u></h2><br>
+                     <p>Welcome to MyQuote.com, your source for daily
+                        inspiration through quotes. We're dedicated to bringing
+                        you thought-provoking and motivating quotes from various
+                        authors and thinkers.</p>
+                     <p>Our mission is to inspire and uplift your day with the
+                        wisdom and insight found in the words of great minds.
+                        Whether you're seeking motivation, reflection, or simply
+                        a moment of inspiration, you'll find it here.</p>
+                     <p>At MyQuote.com, we curate a diverse collection of quotes
+                        to cater to different tastes and interests. We believe
+                        in the power of words to inspire change and make a
+                        positive impact on your life.</p>
+                     <p>Join us in this journey of exploration and
+                        enlightenment. Explore our collection of quotes, share
+                        them with your friends, and let the wisdom of the ages
+                        guide your path.</p><br><hr><br>
+                     <div class="head"><h3>Team Members:
+                           <p><ul>
+                                 <li>Tanmay Arora(2310991305)</li>
+                                 <li>Tanveer Singh(2310991306)</li>
+                                 <li>Tanya Arora(2310991307)</li>
+                              </ul></p>
+                        </h3></div>
+                  </div>
+               </section>
+            </section>
+            <section id="contact">
+            <div class="container1">
+               <h1><u>Contact Us</u></h1><br>
+               <p>If you have any questions, comments, or concerns related to Random Quote Generator, we are here to help. Our customer support team is available to assist you through multiple channels, so you can choose the one that works best for you.</p><br>
+       
+               <div class="row">
+                   <div class="contact-medium">
+                       <div class="contact-method">
+                           <i class="contact-method-icon fas fa-envelope" style="color: white;"></i>
+                           <span class="contact-method-title" style="color: white;"><u>Email Support</u></span>
+                           <div class="contact-method-description">You can send us an email at <a href="mailto:quotegenerator12@gmail.com">quotegenerator12@gmail.com</a> and we’ll get back to you as soon as possible. Our team is available to answer your questions and provide assistance with any issues you may be experiencing on Random Quote Generator.</div>
+                       </div><br>
+                   </div><div class="contact-medium">
+                       <div class="contact-method">
+                           <i class="contact-method-icon fas fa-phone" style="color: white;"></i>
+                           <span class="contact-method-title" style="color: white;"><u>Phone Support</u></span>
+                           <div class="contact-method-description">If you prefer to speak with someone directly, you can call us at <a href="tel:+919008345123">+919008345123</a>. Our customer support team is available to take your call 24/7 to assist you with any issues related to Random Quote Generator.</div>
+                       </div><br>
+                   </div> <p>We value your feedback and are committed to providing you with the best possible service on Random Quote Generator. If you have any suggestions on how we can improve our website or services, please let us know. Our team is always looking for ways to enhance the customer experience on Random Quote Generator and we appreciate any feedback you can provide.</p><br>
+       
+               <p>Thank you for choosing Random Quote Generator. We look forward to hearing from you!</p></a></b></div></div></newisty-contact-us-generator>
+               </section>
+       
+       
+         </main>
+         <footer class="flex-all-center">
+            <marquee behavior="scroll" direction="left" scrollamount="16">Copyright
+               &copy myQuote.com</marquee>
+         </footer>
+         <script>
+            const quotes = [
+            "Anger is one letter short of danger.",
+"Anger is a wind that blows out the lamp of the mind.",
+"Stay calm when you're angry.",
+"Anger is a choice, not a reaction.",
+"Saying nothing sometimes says the most.",
+"An angry heart is a narrow mind.",
+"Anger is the wind that blows out the candle of the mind.",
+"A moment of patience in a moment of anger saves a thousand moments of regret.",
+"Don't let anger control you.",
+"The best revenge is not to be like your enemy.",
+"Anger is a temporary madness.",
+"Anger is a natural response; holding onto it is not.",
+"Don't get mad, get focused.",
+"Anger is a signal, not a solution.",
+"Don't make decisions when you're angry.",
+"Holding onto anger is like drinking poison and expecting the other person to die.",
+"The angrier you get, the dumber you look.",
+"Speak when you are angry, and you'll make the best speech you'll ever regret.",
+"Anger is an acid that can do more harm to the vessel in which it is stored than to anything on which it is poured.",
+"You can't shake hands with a clenched fist.",
+"Anger is the wind that blows out the candle of the mind.",
+"Anger is a feeling that makes your mouth work faster than your mind.",
+"Don't let anger ruin your life.",
+"Anger is a choice, not a condition.",
+"Sometimes it's better to just walk away, calm down, and revisit the issue later.",
+"When angry, count to ten before you speak; if very angry, count to a hundred.",
+"Resentment is like drinking poison and waiting for the other person to die.",
+"The more anger towards the past you carry in your heart, the less capable you are of loving in the present.",
+"Don't be controlled by anger; control your anger.",
+"Silence is the best reply to a fool.",
+"Never do anything when you are in a temper, for you will do everything wrong.",
+"An ounce of patience is worth a pound of rage.",
+"Letting go of anger is the key to happiness.",
+"Anger is the punishment we give ourselves for someone else's mistake.",
+"In the heat of anger, think twice before you speak once.",
+"Anger is a letter short of danger.",
+"A moment of patience can prevent a great disaster.",
+"If you kick a stone in anger, you'll hurt your foot.",
+"Holding onto anger is like grasping a hot coal with the intent of throwing it at someone else; you are the one who gets burned.",
+"To be angry is to let others' mistakes punish yourself.",
+"Don't get even, get better.",
+"Anger is a strong wind; it extinguishes the light of reason.",
+"Anger is the noise of the soul.",
+"Anger is a momentary madness, so control your passion or it will control you.",
+"Anger makes you smaller while forgiveness forces you to grow beyond what you are.",
+"An angry man is again angry with himself when he returns to reason.",
+"Anger is often more hurtful than the injury that caused it.",
+"Anger is a short madness.",
+"Anger is a punishment we give to ourselves for someone else's mistake.",
+"Don't let anger destroy you.",
+"A person who has a lot of anger inside is like a building with a weak foundation.",
+"Anger is only one letter away from danger.",
+"Speak when you are angry, and you'll make the best speech you'll ever regret.",
+"The best answer to anger is silence.",
+"Anger is a momentary madness, so control your passion or it will control you.",
+"The angriest people are often the saddest ones.",
+"Silence is the best way to react when angry.",
+"Don't let your anger make you a monster; it's a waste of good people.",
+"Anger is never without a reason, but seldom with a good one.",
+"Anger is a wind that blows out the lamp of the mind.",
+"People won't have time for you if you are always angry or complaining.",
+"The greatest remedy for anger is delay.",
+"Anger is the thief of peace.",
+"The strongest people are not those who show strength in front of us but those who win battles we know nothing about.",
+"Anger is an acid that can do more harm to the vessel in which it is stored than to anything on which it is poured.",
+"Do not be quickly provoked in your spirit, for anger resides in the lap of fools.",
+"An eye for an eye only ends up making the whole world blind.",
+"Anger is often more hurtful than the injury that caused it.",
+"A gentle answer turns away wrath, but a harsh word stirs up anger.",
+"Don't hold to anger, hurt, or pain.They steal your energy and keep you from love.",
+"Don't let people pull you into their storm.Pull them into your peace.",
+"Anger is a feeling that makes your mouth work faster than your mind.",
+"Never go to bed angry, stay awake and plot your revenge.",
+"Anger is an acid that can do more harm to the vessel in which it is stored than to anything on which it is poured.",
+"Getting angry is easy.But getting angry at the right person, with the right intensity, at the right time, for the right reason, and in the right way – that is not easy.",
+"Anger, when not restrained, is frequently more hurtful to us than the injury that provokes it.",
+"Silence is the best way to react while angry.",
+"An angry man is again angry with himself when he returns to reason.",
+"Don't let your anger make you a monster; it's a waste of good people.",
+"Anger is never without a reason, but seldom with a good one.",
+"Anger is a wind that blows out the lamp of the mind.",
+"People won't have time for you if you are always angry or complaining.",
+"The greatest remedy for anger is delay.",
+"Anger is the thief of peace.",
+"The strongest people are not those who show strength in front of us but those who win battles we know nothing about.",
+"Anger is an acid that can do more harm to the vessel in which it is stored than to anything on which it is poured.",
+"Do not be quickly provoked in your spirit, for anger resides in the lap of fools.",
+"An eye for an eye only ends up making the whole world blind.",
+"Anger is often more hurtful than the injury that caused it.",
+"A gentle answer turns away wrath, but a harsh word stirs up anger.",
+"Don't hold to anger, hurt, or pain.They steal your energy and keep you from love.",
+"Don't let people pull you into their storm.Pull them into your peace.",
+"Anger is a feeling that makes your mouth work faster than your mind.",
+"Never go to bed angry, stay awake and plot your revenge.",
+"Anger is an acid that can do more harm to the vessel in which it is stored than to anything on which it is poured.",
+"Getting angry is easy.But getting angry at the right person, with the right intensity, at the right time, for the right reason, and in the right way – that is not easy.",
+"Anger, when not restrained, is frequently more hurtful to us than the injury that provokes it.",
+"Silence is the best way to react while angry.",
+"An angry man is again angry with himself when he returns to reason."
+        
+        ];
+        
+        function GenerateQuote() {
+            const randomIndex = Math.floor(Math.random() * quotes.length);
+            const quoteElement = document.getElementById("QuoteText");
+            quoteElement.textContent = quotes[randomIndex];
+        }
+        
+        GenerateQuote(); 
+      const link = encodeURI(window.location.href);
+      const msg = encodeURIComponent('yo yo yo');
+      const title = encodeURIComponent(document.querySelector('title').textContent);
+      console.log([link,msg,title]);
+
+      const fb = document.querySelector('.facebook');
+      fb.href = `https://www.facebook.com/share.php?u=${link}`;      
+        
+      const linkedin = document.querySelector('.linkedin');
+      linkedin.href = `https://www.linkedin.com/sharing/share-offsite/?url=${link}`;
+      const reddit = document.querySelector('.reddit');
+      reddit.href = `http://www.reddit.com/submit?url=${link}&title=${title}`;
+      const text = "RANDOM QUOTES ON ANGER"; 
+      const element = document.querySelector('.rand');
+
+      function animateText(text) {
+          let i = 0;
+
+          function addLetter() {
+              if (i < text.length) {
+                  element.textContent += text.charAt(i);
+                  i++;
+                  setTimeout(addLetter, 100); 
+              } else {
+                
+                  setTimeout(() => {
+                      element.textContent = '';
+                      i = 0;
+                      animateText(text);
+                  }, 1000); 
+              }
+          }
+
+          addLetter();
+      }
+
+      animateText(text);
+   </script>
+      </body>
+   </html>
